@@ -10,11 +10,6 @@
   background:linear-gradient(to bottom,#004B5C,#184F5C,#008AA8,#00B3DB,#3cd9fc);
 }
 
-.title{
-  font-size: 40px;
-  text-align: center;
-
-}
 .calculator{
   position: absolute;
   background-color: #002e38;
