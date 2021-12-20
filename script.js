@@ -1,9 +1,11 @@
 const result = document.getElementById("result")
-
+var gb1 = "";
+var gb2 = "";
 
 function insert(params) {
   console.log(params);
-  result = result.innerHTML = params
+  gb1 += params;
+  result.innerHTML = gb1;
   // while (params !== "+") {}
 
 }
