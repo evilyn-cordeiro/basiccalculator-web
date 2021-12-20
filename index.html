@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0"> 
-   <link rel="stylesheet" href="style.css"> <!--link para a adição da folha de estilo "CSS" em javaScript -->
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!--link para a adição da folha de estilo "CSS" em javaScript -->
 
   <title>PROJETO 05</title>
 </head>
@@ -13,37 +14,40 @@
 <body>
   <div class="background">
     <div class="calculator">
+      <!-- Calculadora, espaço principal -->
       <p id="result"></p>
+      <!--identificador do resultado das operações -->
       <table>
         <!-- Tabela criada com a adição de botões e funções do javascript -->
         <tr>
-          <td><button class="button" onclick=>C</button></td>
-          <td><button class="button" onclick=>.</button></td>
-          <td><button class="button" onclick=>/</button></td>
-          <td><button class="button" onclick=>X</button></td>
+          <td><button class="button">C</button></td>
+          <td><button class="button">.</button></td>
+          <td><button class="button">/</button></td>
+          <td><button class="button">X</button></td>
         </tr>
         <tr>
-          <td><button class="button" onclick=>7</button></td>
-          <td><button class="button" onclick=>8</button></td>
-          <td><button class="button" onclick=>9</button></td>
-          <td><button class="button" onclick=>-</button></td>
+          <td><button class="button" onclick="insert('7')">7</button></td>
+          <td><button class="button" onclick="insert('8')">8</button></td>
+          <td><button class="button" onclick="insert('9')">9</button></td>
+          <td><button class="button">-</button></td>
         </tr>
         <tr>
-          <td><button class="button" onclick=>4</button></td>
-          <td><button class="button" onclick=>5</button></td>
-          <td><button class="button" onclick=>6</button></td>
-          <td><button class="button" onclick=>+</button></td>
+          <td><button class="button" onclick="insert('4')">4</button></td>
+          <td><button class="button" onclick="insert('5')">5</button></td>
+          <td><button class="button" onclick="insert('6')">6</button></td>
         </tr>
         <tr>
-          <td><button class="button" onclick=>1</button></td>
-          <td><button class="button" onclick=>2</button></td>
-          <td><button class="button" onclick=>3</button></td>
-          <td><button class="button" onclick=>=</button></td>
+          <td><button class="button" onclick="insert('1')">1</button></td>
+          <td><button class="button" onclick="insert('2')">2</button></td>
+          <td><button class="button" onclick="insert('3')">3</button></td>
+          <td><button class="button">+</button></td>
         </tr>
+        <td><button class="button" onclick="insert('0')">0</button></td>
+        <td><button class="button">=</button></td>
       </table>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!--  link do script javaScript na página HTML -->
 </body>
 
 </html>
