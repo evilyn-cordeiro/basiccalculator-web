@@ -1,11 +1,23 @@
-const result = document.getElementById("result")
-var gb1 = "";
-var gb2 = "";
+const result = document.getElementById("result");
 
-function insert(params) {
-  console.log(params);
-  gb1 += params;
-  result.innerHTML = gb1;
-  // while (params !== "+") {}
+const buttons = Array.from(document.getElementsByClassName("button"));
 
-}
+//
+
+buttons.map((button) => {
+  button.addEventListener("click", (e) => {
+    switch (e.target.outerText) {
+      case "C":
+        result.innerHTML = "";
+        break;
+      case "←":
+        result.innerHTML = result.innerHTML.slice(0, -1);
+        break;
+      case "=":
+        result.innerHTML = eval(result.innerHTML);
+        break;
+      default:
+        result.innerHTML += e.target.outerText;
+    }
+  })
+})

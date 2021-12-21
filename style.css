@@ -12,12 +12,14 @@
 
 .calculator{
   position: absolute;
-  background-color: #002e38;
+  background-color: #002e38a2;
+  box-shadow: 5px 10px 30px #021c22a2;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 5px;
   padding: 15px;
+
 }
 
 .button{
@@ -27,8 +29,10 @@
   margin: 5px;
   font-size: 25px;
   background-color:#7ADEF5;
+  border-radius: 5px;
   color:#004B5C;
   cursor:pointer;
+  box-shadow: 5px 0px 30px #002e38a2;
 }
 
 .button:hover{
@@ -40,8 +44,10 @@
   width: 207px;
   height: 30px;
   margin: 5px;
+  border-radius: 5px;
   font-size: 25px;
   color: black;
   text-align: right;
   padding: 5px;
+  overflow: hidden;
 }
