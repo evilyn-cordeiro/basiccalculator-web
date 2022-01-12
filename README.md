@@ -1,2 +1,2 @@
-# Calculadora-B-sica
-Projeto desenvolvido na terceira semana estagiando na empresa TOUKIO. Calculadora Básica utilizando HTML,  CSS e a linguagem de programação JavaScript.
+# Calculator-B-sica
+Project developed in the third week as an intern at TOUKIO company. Basic Calculator using HTML, CSS and the JavaScript programming language.
